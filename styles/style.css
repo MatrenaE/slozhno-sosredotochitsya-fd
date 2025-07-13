@@ -242,7 +242,7 @@
   inset-inline-end: 0.65vw;
 }
 
-.footer.decorated-zone::before{
+.footer.decorated-zone::before {
   content: '';
   inset-block-end: 3.65vw;
   inset-inline-start: -0.35vw;
@@ -356,7 +356,7 @@
     inset-inline-end: 0;
 }
 
-.footer.decorated-zone::before{
+.footer.decorated-zone::before {
   content: '';
   inset-block-end: 20px;
     inset-inline-start: 0;
@@ -417,12 +417,9 @@
   }
 
 .content__block-row .content__text-block {
+  display: grid;
   grid-row: 2;
   grid-column: 1 / span 2;
-}
-
-.content__block-row .content__text-block {
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 20px;
 }
