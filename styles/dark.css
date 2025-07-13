@@ -30,6 +30,7 @@
   position: absolute;
   inset-inline-end: clamp(2.375rem, 1.7786rem + 2.5445vw, 3rem);
   inset-block-start: 2.65vw;
+  display: block;
 }
 
 @media (width >= 600px) {
@@ -53,15 +54,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .decorated-item {
-  color: var(--accent-color, #FF0070);
-  font-family: inherit;
-  font-weight: inherit;
-  font-size: inherit;
-  position: absolute;
-  inset-inline-end: clamp(2.375rem, 1.7786rem + 2.5445vw, 3rem);
-  inset-block-start: 2.65vw;
-}
 
   @media (width >= 600px) {
     .decorated-item {

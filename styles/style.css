@@ -213,7 +213,6 @@
 .image {
   object-fit: contain;
   object-position: center;
-  inline-size: 100vw;
   block-size: 100%;
   inline-size: calc(100vw - (2.65vw + 2.65vw));
 }
