@@ -13,6 +13,11 @@
   --main-title__color: #FFC2E6;
 }
 
+.theme-light .page {
+  background-color: #fff1f7;
+  background-image: var(--bg-color__theme);
+}
+
 .theme-light .decorated-item {
   display: none;
 }

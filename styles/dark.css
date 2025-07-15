@@ -13,6 +13,7 @@
 --main-title__color: #DB00FF;
 }
 
+
 .theme-dark .title {
   text-shadow: 4px 4px var(--accent-color, #FF0070);
 }
@@ -28,15 +29,15 @@
   font-weight: inherit;
   font-size: inherit;
   position: absolute;
-  inset-inline-end: clamp(2.375rem, 1.7786rem + 2.5445vw, 3rem);
-  inset-block-start: 2.65vw;
+  inset-inline-end: clamp(1.625rem, 1.2672rem + 1.5267vw, 2rem);
+  inset-block-start: 0.60vw;
   display: block;
 }
 
 @media (width >= 600px) {
   .theme-dark .decorated-item {
-    inset-inline-end: 49px;
-    inset-block-start: 20px;
+    inset-inline-end: 28px;
+    inset-block-start: 0;
 }
 }
 
@@ -51,14 +52,4 @@
 
 .theme-dark .header__theme-menu-button:hover {
   outline: 1px solid rgba(255, 0, 112, 0.4);
-}
-
-@media (prefers-color-scheme: dark) {
-
-  @media (width >= 600px) {
-    .decorated-item {
-      inset-inline-end: 49px;
-      inset-block-start: 20px;
-    }
-  }
 }
