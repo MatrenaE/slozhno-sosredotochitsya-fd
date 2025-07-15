@@ -54,6 +54,16 @@
     --main-title__color: #FFC2E6;
   }
 
+  .page {
+    background-color: #fff1f7;
+    background-image: var(--bg-color__theme);
+  }
+
+  .theme-dark .page {
+    background-color: #000028;
+    background-image: var(--bg-color__theme);
+  }
+
   .decorated-item {
     display: none;
   }
